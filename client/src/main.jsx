@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client'
 import { createHashRouter, RouterProvider } from 'react-router-dom'
-import { About } from './pages/About/About';
 import Home from './pages/Home/Home';
+import About from './pages/About/About';
 
 
 
@@ -13,7 +13,7 @@ const router = createHashRouter([
   },
   {
     path: "/about",
-    element: <About />,
+    element: <About />
   },
 ])
 
